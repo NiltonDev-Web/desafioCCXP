@@ -3,7 +3,7 @@ const hora = document.getElementById("hora");
 const minuto = document.getElementById("min");
 const segundo = document.getElementById("seg");
 
-const lancamento = "31 dec 2023";
+const lancamento = "26 March 2024";
 
 function countdown(){
  
