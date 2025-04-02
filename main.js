@@ -1,6 +1,12 @@
 function addRedBorder(id)
 {
-    Element = document.querySelector("#" +id);
+    Element = document.querySelector("#" + id);
     Element.style.border = "5px solid red";
 }
-addRedBorder("sexta");
+
+function highlightCard(selector) 
+{
+    var element = document.querySelector(selector);
+    Element.classList.toggle("card-highlight");
+    
+}

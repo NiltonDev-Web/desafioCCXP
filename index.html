@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title> CCXP 2022</title>
+    <title> CCXP 2025</title>
 
 </head>
 
-<body>
+<b   y>
     <heade>
-        <div id="logo"><img src="logo.svg" alt="Logo CCXP" width="150px"></div>
+        <div id="logo"><img src="./imagem/logo.svg" alt="Logo CCXP" width="150px"></div>
     </heade>
 
     <section id="sec1">
@@ -39,31 +39,27 @@
             </div>
             <div id="video">
                 <video width="100%" controls loop>
-                    <source src="Arlequina.mp4" type="video/mp4"> </video>
+                    <source src="./videos/Arlequina.mp4" type="video/mp4"> </video>
             </div>
         </div>
     </section>
     <section id="compre">
-        <div>
-            <div id="subtitulo-ing">
+        <div id="ing1">
                 <strong> AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</strong>
-            </div>
-            <div id="ingressos">
-                <img src="qui.svg" id="quinta" alt="">
-                <img src="sex.svg" id="sexta" alt="">
-                <img src="sab.svg" id="sabado" alt="">
-                <img src="dom.svg" id="domingo" alt="">
-            </div>
+        <div id="ing2">
+             <img src="./imagem/qui.svg" onmouseover="highlightCard('#quinta')" id="quinta" alt="">
+             <img src="./imagem/sex.svg" onmouseover="highlightCard('#sexta')" id="sexta" alt="">
+             <img src="./imagem/sab.svg" onmouseover="highlightCard('#sabado')" id="sabado" alt="">
+             <img src="./imagem/dom.svg" onmouseover="highlightCard('#domingo')" id="domingo" alt="">
         </div>
-        <div id="botao-compra">
+        </div>
+        <div id="compra">
             <button> GARANTA O SEU!</button>
         </div>
     </section>
 
 
-    <script src="cronometro.js"> </script>
+    <script src="./script/cronometro.js"> </script>
     <script src="main.js"></script>
 </body>
-
-
 </html>

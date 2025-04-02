@@ -124,6 +124,10 @@ button{
 }
 
 button:hover{
+    background-color: #514988;
     cursor: pointer;
-    color:#FFD900
+    color: #f3c61f;
+}
+.card-highlight {
+    box-shadow: 10px 10px grey;
 }
