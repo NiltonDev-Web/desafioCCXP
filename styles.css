@@ -111,6 +111,12 @@
     margin-left: 150px;
     
 }
+p {
+    color: #f3c61f;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
 
 button{
     background-color: #514988;
@@ -129,5 +135,5 @@ button:hover{
     color: #f3c61f;
 }
 .card-highlight {
-    box-shadow: 10px 10px grey;
+    box-shadow: 10px 10px 10px 10px  rgb(143, 143, 146);
 }
